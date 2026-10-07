@@ -13,9 +13,9 @@ jobs:
   compile-and-test:
     uses: emacs-twist/elisp-workflows/.github/workflows/compile-and-test.yml@master
     with:
-      melpa: github:emacs-twist/melpa/nix3-all
+      melpa: github:emacs-twist/melpa/magit-nix3
       systems: github:nix-systems/x86_64-linux
   melpazoid:
     uses: emacs-twist/elisp-workflows/.github/workflows/melpazoid.yml@master
     with:
-      melpa: github:emacs-twist/melpa/nix3-all
+      melpa: github:emacs-twist/melpa/magit-nix3

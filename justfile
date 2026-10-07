@@ -4,7 +4,7 @@ rice-config := "github:emacs-twist/rice-config"
 # Specify a flake reference to a repository and branch where the package recipe
 # is defined.
 # Before it is available on melpa, you need to specify a non-default branch.
-melpa := "github:emacs-twist/melpa/nix3-all"
+melpa := "github:emacs-twist/melpa/magit-nix3"
 
 # Relative path to the lock directory
 lock-dir := ".rice-lock/default"
